@@ -104,7 +104,6 @@ h1 {
 /* Maidan container */
 .maidan-img {
   display: flex;
-  flex-wrap: wrap;
   padding-top: 20px;
 }
 .maidan-img img {
