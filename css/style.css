@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --second-color: rgb(235, 233, 233);
+  --set-grap: 10px;
+  --brand-color: rgb(23, 149, 153);
+}
+/* Общий стиль документа */
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  color: var(--black-color);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+h2 {
+  margin-top: 0;
+  padding-top: 40px;
+}
+p {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/* Стиль логотипа */
+header {
+  min-height: 80px;
+  font-family: 'Bodoni Moda', serif;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.15);
+}
+/* Footer style */
+.footer {
+  background-color: var(--brand-color);
+  padding: 0;
+  margin: 0;
+}
+.footer-info {
+  width: 1200px;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  font-weight: 400;
+  padding: 15px;
+}
+.second-section {
+  background-color: var(--second-color);
+}
+
+.logo-ico {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.logo {
+  font-size: 26px;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--black-color);
+}
+.logo-text {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.logo:active {
+  color: var(--black-color);
+  text-decoration: none;
+}
+h1 {
+  font-size: 48px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 0;
+  color: var(--brand-color);
+}
+.title-small {
+  color: rgb(145, 137, 137);
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+/* Maidan container */
+.maidan-img {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.maidan-img img {
+  width: calc(100% / 3 - var(--set-grap));
+}
+.maidan-img img:not(:last-child) {
+  margin-right: var(--set-grap);
+}
+img {
+  display: block;
+}
+.maidan-big-img {
+  margin-top: var(--set-grap);
+  width: calc(100% - var(--set-grap));
+}
+
+/* Khresh section */
+.flex-content {
+  display: flex;
+}
+.khresh-img-content img {
+  width: 500px;
+  margin: var(--set-grap) 0;
+}
+
+.khresh-text-content {
+  padding: 30px;
+}
+/* kontractova section */
+.last-text {
+  padding-bottom: 15px;
+}
+/* Sofia squere */
+.sofia-section {
+  display: flex;
+  text-align: center;
+}
+.sofia-text {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.sofia-img {
+  padding-top: var(--set-grap);
+}
+.big-img {
+  margin-top: var(--set-grap);
+}
+.river-text {
+  padding-right: 15px;
+}
+.river-port-section {
+  margin-top: var(--set-grap);
+  background-color: var(--second-color);
+}
+.metro-img {
+  width: calc(100% / 3 - var(--set-grap));
+}
+.metro-img:not(:last-child) {
+  margin-right: var(--set-grap);
+}
