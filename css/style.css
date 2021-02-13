@@ -106,7 +106,7 @@ h1 {
   display: flex;
   padding-top: 20px;
 }
-.maidan-img img {
+.maidan-img-img {
   width: calc(100% / 3 - var(--set-grap));
 }
 .maidan-img img:not(:last-child) {
